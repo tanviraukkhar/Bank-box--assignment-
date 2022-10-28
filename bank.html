@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="bank-name">
+        <span class="your-design">YouR-</span>Bank!
+      </h1>
+    </header>
+
+    <div class="container">
+      <div class="Deposit">
+        <h1 class="text-2xl">Deposit</h1>
+        <h1 class="text-5xl">$<span id="deposit-total">00</span></h1>  
+        
+      </div>
+
+      <div class="Withdraw">
+        <h1 class="text-2xl">Withdraw</h1>
+        <h1 class="text-5xl">$<span id="withdraw_total">00</span></h1>
+        
+      </div>
+
+      <div class="balance">
+        <h1 class="text-2xl">Balnce</h1>
+        <h1 class="text-5xl">$<span id="balance-total">1000</span></h1>
+        
+      </div>
+
+      <div class="depMoney">
+        <h1 class="text-2xl">Deposit Money</h1>
+
+        <div class="mt-2">
+          <input
+            id="deposit_input"
+            type="text"
+            name=""
+          
+            placeholder="Enter Deposit Money"
+            class="search-bar"
+            
+          /><br><br>
+
+          <button
+            id="deposit_button"
+            class="button"
+          >
+            Deposit
+          </button>
+        </div>
+      </div>
+      
+      <div class="withMoney">
+        <h1 class="text-2xl">Withdraw Money</h1>
+
+        <div class="mt-2">
+          <input
+            id="withdraw_input"
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter Withdraw Money"
+            class="search-bar"
+          /><br><br>
+
+          <button
+            id="withdraw_btn"
+            class="button"
+          >
+            Withdraw
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
